@@ -1,5 +1,5 @@
 # base path to YOLO directory
-MODEL_PATH = "drive/Social_distance_monitoring/yolo-coco"
+MODEL_PATH = "yolo-coco"
 
 # initialize minimum probability to filter weak detections along with
 # the threshold when applying non-maxima suppression
