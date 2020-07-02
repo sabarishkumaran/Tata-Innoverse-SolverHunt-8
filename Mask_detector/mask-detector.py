@@ -1,5 +1,5 @@
 # USAGE
-# python detect_mask_video.py
+# python mask-detector.py
 
 # import the necessary packages
 from tensorflow.keras.applications.mobilenet_v2 import preprocess_input
@@ -135,7 +135,7 @@ while True:
 		cv2.rectangle(frame, (startX, startY), (endX, endY), color, 2)
 
 	# show the output frame
-	cv2.imshow("Frame", frame)
+	cv2.imshow("Mask_Detector", frame)
 	key = cv2.waitKey(1) & 0xFF
 
 	# if the `q` key was pressed, break from the loop
